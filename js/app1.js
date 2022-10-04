@@ -1,6 +1,6 @@
 const gera = document.querySelector('#dados');
 const num = parseInt(Math.random() * 31 + 1);
-
+const quar = document.querySelector('.quaday')
 gera.addEventListener('click', function () {
     const day = document.querySelectorAll('.day');
     for (let i = 0; i < day.length; i++) {
@@ -14,9 +14,9 @@ gera.addEventListener('click', function () {
             day[i].textContent = 'Feriado'
             day[i].classList.add('lead')
         }
-        if(Number(day[i].textContent) === "quaday"){
-            console.log(day[i]);
-        }
+        
+        console.log(quar);
+
 
 
     }

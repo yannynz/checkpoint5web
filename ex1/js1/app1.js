@@ -15,6 +15,7 @@ gera.addEventListener('click', function () {
             day[i].classList.add('lead')
         }
         
+        quar.textContent;
         console.log(quar);
 
 
